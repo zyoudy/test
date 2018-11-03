@@ -1,0 +1,29 @@
+Recomendations:
+This is a list of recommendations to make this project better 
+(UI, UX, Performance, Security, Architecture, Bug fix, New Feature, ...etc )
+
+// Please make your recommendations as clear as possible with only a few sentences 
+
+1.As its a login system you have to keep the session Alive after refresh the page by using ngStorage or ngCookies to maintain a local instance of your data, this will come in handy when you refresh your page but beware that features like Login(server session) requires session to be reloaded in header once the refresh is completed and application is loaded, and it will only work until the session expires on server.
+Apart from session you can store your desired data and states of the page etc etc…
+i didn't get the time to done it but i will later 
+2. As  profile page you need to give the user the option to play around with his data like the name so i've made that editable
+
+3.I would like to re write that in react actually cuz its much easier and with less lines i can do more of real act
+
+4.just implemented 2 ways of how we can skip the part where the email and the password are in a public hand 
+
+5.I've done some tricks out there for the user action 
+
+6. there is no need to use angular out there while you can do most of that in less than that using VanillaJs & React 
+
+7.the mess in the server side is more than it in the UI 
+and as a MERN developer i have to do the backend first so moving the whole profile section into the center and add this to the code 
+  
+  img {
+  border-radius :50%
+}
+8. the performance will be incresed if my saving data has been deplyed cuz it will reduse the huge amount of codes that needed for such forms
+
+9- deleting the images source and replace it with image uploader option which it has already implemented and commented 
+
